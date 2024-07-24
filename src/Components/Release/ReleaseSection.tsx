@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom"
 import CardPlayer from "../CardPlayer/CardPlayer"
-import { CardsPropsOfMUsics } from "../CardPlayer/types"
 import { NavBarLink, NavBarUl } from "../NavBar/NavBarLink"
+import { MusicCards } from "../Player/Musics"
 
 function ReleaseSection() {
     return (
@@ -29,11 +30,13 @@ function ReleaseSection() {
             </div>
 
             <div className="flex flex-wrap gap-4 p-4">
-                {CardsPropsOfMUsics.map((value, i) => (
-                    <CardPlayer key={i} 
-                    author={value.author} 
-                    name={value.name} 
-                    img={value.img} />
+                {MusicCards.map((value, i) => (
+                    <Link key={i}  to={`/Music/${value.id}`}>
+                    <CardPlayer 
+                        artist={value.artist} 
+                        title={value.title} 
+                        thumbnail={value.thumbnail} />
+                    </Link>
                 ))}
             </div>
         </>
