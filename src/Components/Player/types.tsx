@@ -1,9 +1,10 @@
 export type PlayerProps = {
-    id: number;
+    id?: number;
     title: string;
-    src: string;
+    src?: string;
     artist?: string;
     thumbnail?: string;
+    lyrics?: string;
 };
 
 export interface CurrentMusicType extends PlayerProps {
