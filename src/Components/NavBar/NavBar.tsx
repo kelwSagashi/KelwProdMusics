@@ -31,7 +31,6 @@ function NavBar() {
                     <NavBarUl className={mobileDrawerOpen ? 'md:flex' : 'hidden md:flex'}>    
                         <NavBarLink href='/'>Inicio</NavBarLink>
                         <NavBarLink href='/Musicas'>Músicas</NavBarLink>
-                        <NavBarLink href='/Imagens'>Músicas</NavBarLink>
                         <NavBarLink href='/Contato'>Sobre Nós</NavBarLink>
                         <NavBarLink className='px-3 py-2 border rounded-md 
                             bg-gradient-to-r from-orange-500 to-orange-800' href='/'>
