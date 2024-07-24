@@ -1,5 +1,3 @@
-import CardPlayer from "../CardPlayer/CardPlayer"
-import { CardsPropsOfMUsics } from "../CardPlayer/types"
 import { NavBarLink, NavBarUl } from "../NavBar/NavBarLink"
 
 function CoverSection() {
@@ -29,12 +27,7 @@ function CoverSection() {
             </div>
 
             <div className="flex flex-wrap gap-4 p-4">
-                {CardsPropsOfMUsics.map((value, i) => (
-                    <CardPlayer key={i} 
-                    author={value.author} 
-                    name={value.name} 
-                    img={value.img} />
-                ))}
+                
             </div>
         </>
     )
