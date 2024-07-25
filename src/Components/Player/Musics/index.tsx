@@ -1,6 +1,6 @@
 import { PlayerProps } from "../types";
 
-const music_paths = '/public/Musics';
+const music_paths = '/Musics';
 export const MusicsInfos: PlayerProps[] = [
   {
     id: 1,

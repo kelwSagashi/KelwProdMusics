@@ -1,5 +1,4 @@
 import React from 'react'
-import Video1 from '../../../public/Videos/Video1.mp4'
 
 function HeroSection() {
   return (
@@ -17,7 +16,7 @@ function HeroSection() {
             <video autoPlay loop
                 className='rounded-lg w-1/2 border border-orange-500 shadow-orange-300
                             mx-2 my-4'>
-                <source src={Video1} type='video/mp4'/>
+                <source src='/Videos/Video1.mp4' type='video/mp4'/>
                 Seu Browser não suporta esse vídeo
             </video>
         </div>

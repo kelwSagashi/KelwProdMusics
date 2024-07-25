@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { NavBarLink, NavBarNav, NavBarUl } from './NavBarLink'
-import { Menu, X } from 'lucide-react';
-import Logo from '../../../public/Capa_kelw.png'
+import { Menu, X } from 'lucide-react'
 
 function NavBar() {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState<boolean>(false);
@@ -18,7 +17,7 @@ function NavBar() {
                                 max-md:flex-wrap max-md:flex-col
                                 max-md:gap-4'>
                     <div className='flex items-center flex-shrink-0 max-md:w-full'>
-                        <img src={Logo} alt="" className='h-10 w-10 mr-2'/>
+                        <img src='Capa_kelw.png' alt="" className='h-10 w-10 mr-2'/>
                         <span className='text-xl tracking-tighter font-thin'>
                             <span className='font-semibold'>KelwProd'</span>
                             Records</span>
