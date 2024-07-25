@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# Kelw Prod Rercords
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Eu fiz essa página me inspirando em páginas de gravadoras de música onde eles postam 
+as musicas feitas pelos seus artistas.
 
-Currently, two official plugins are available:
+Então eu fiz, com base nisso, uma página para colocar as minhas músicas e as coisas que 
+eu fiz. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esse site tem algumas seções e algumas rotas que mostram as musicas, dá pra tocá-las,
+tem uma `Home` que mostra de forma resumida as minhas coisas.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## O que eu uso?
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- Vite
+- Tailwind
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Além dessas ferramentas, eu usei parte de um código para fazer o playground de música
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Reposiório do Playground
+[Visite o Repositório](https://github.com/migmig69/migmig-player/tree/main)
