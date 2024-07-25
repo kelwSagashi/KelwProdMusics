@@ -13,7 +13,16 @@ tem uma `Home` que mostra de forma resumida as minhas coisas.
 
 Faz um git clone
 
-```gh repo clone kelwSagashi/KelwProdMusics```
+```
+gh repo clone kelwSagashi/KelwProdMusics
+```
+
+
+### Execute com:
+
+```
+npm run dev
+```
 
 O expo não está funcionando na minha maquina!
 
