@@ -9,6 +9,13 @@ eu fiz.
 Esse site tem algumas seções e algumas rotas que mostram as musicas, dá pra tocá-las,
 tem uma `Home` que mostra de forma resumida as minhas coisas.
 
+## Instalação
+
+Faz um git clone
+
+```gh repo clone kelwSagashi/KelwProdMusics```
+
+O expo não está funcionando na minha maquina!
 
 ## O que eu uso?
 
